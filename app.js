@@ -13,7 +13,6 @@ document.querySelector('#loan-form').addEventListener('submit', function(e){
 
 //Function to calculate results
 function calculateResults(){
-    console.log('calculating...');
 
     //UI Vars
     const amount = document.querySelector('#amount');
